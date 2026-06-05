@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DAXXMUSIC import LOGGER, app, userbot
-from DAXXMUSIC.core.call import 1pac
-from DAXXMUSIC.misc import sudo
-from DAXXMUSIC.plugins import ALL_MODULES
-from DAXXMUSIC.utils.database import get_banned_users, get_gbanned
+from 𝘿𝙊𝙍𝘼𝙀𝙈𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾 import LOGGER, app, userbot
+from 𝘿𝙊𝙍𝘼𝙀𝙈𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾.core.call import ONEPAC
+from 𝘿𝙊𝙍𝘼𝙀𝙈𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾.misc import sudo
+from 𝘿𝙊𝙍𝘼𝙀𝙈𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾.plugins import ALL_MODULES
+from 𝘿𝙊𝙍𝘼𝙀𝙈𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -50,7 +50,7 @@ async def init():
         pass
     await 1pac.decorators()
     LOGGER("𝘿𝙊𝙍𝘼𝙀𝙈𝙊𝙉 𝙓 𝙈𝙐𝙎𝙄𝘾").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗗𝗔𝗫𝗫☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 ONEPAC☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
